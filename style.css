@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  
+  }
+  .container{
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1{
+    /* position: fixed; */
+  background: linear-gradient(135deg,#00fe2ab6,#b514ffd3) !important;
+  color: #f1f1f1;
+  width: 50%;
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 470px;
+ margin:auto;
+ border-radius: 30px ;
+ z-index: 2;
+  }
+  .search{
+    align-items: center;
+    justify-content: space-around;
+  }
+  .search input{
+    border: none;
+    outline: none;
+    color:#555;
+    padding: 8px 22px;
+    min-width:80%;
+    min-height: 2rem;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  .search button{
+    border: none;
+    outline: none;
+    min-width:2.8rem;
+    min-height:2.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .search button img{
+    width: 2rem ;
+    padding: 5px;
+  }
+  .weather-icon{
+    width: 7rem;
+  }
+  .weather h1{
+    font-size: 3.5rem;
+  }
+  .details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .col{
+    display: flex;
+    justify-content: center;
+  }
+.col img{
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0;
+}
+  .ok{
+    margin-left: 1rem;
+    text-align: start;
+  }
+  .para{
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .load{
+    margin: 1rem 0 0 0;
+  }
+.ps-2{
+  color: #80ffc0;
+}
+.moreload{
+  margin-top: 1rem;
+  display: none;
+}
+.load{
+  cursor: pointer;
+}
+
+
+
+  @media(max-width: 680px){
+    .card1{
+      width: 80%;
+      max-width: 500px ;
+    
+    }
+   
+  }
+  @media  (max-width:430px){
+    .card1{
+      width: 90%;
+      max-width: 500px ;
+    
+    }
+  }
+    
+  @media (max-width:350px) {
+    .details{
+      margin: 0;
+    }
+    .card1{
+      padding:1rem  0.5rem;
+    }
+    .col img{
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+    .ok{
+      margin: 8px;
+      text-align: start;
+    }
+    .p1{
+      font-size: 0.9rem;
+    }
+    .para{
+      font-size: 0.7rem;
+    }
+  }
